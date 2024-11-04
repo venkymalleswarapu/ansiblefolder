@@ -1,14 +1,14 @@
 - name: ansible variable datatypes
-  host: local host
-vars:
-- AGE: 30
-- NAME: "VENKY"
-- IsDEVOPS: true
+  host: localhost
+ vars:
+  - AGE: 30
+  - NAME: "VENKY"
+  - IsDEVOPS: true
 - skills:
- -Devops
- -Aws
- -Docker
--EXPERIENCE:
+  - Devops
+  - Aws
+  - Docker
+- EXPERIENCE:
   Devops: 7
   Aws: 5
   Docker: 4
